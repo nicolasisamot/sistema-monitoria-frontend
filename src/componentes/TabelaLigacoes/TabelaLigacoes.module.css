@@ -1,0 +1,76 @@
+.tabela {
+  width: 100%;
+  text-align: center;
+  padding: 5rem;
+  background-color: #f2f2f2;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.tbody {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.thead {
+  background-color: #f2f2f2;
+}
+
+.modal {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.modalContent {
+  min-width: 500px;
+
+  background-color: #fefefe;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 32px;
+}
+
+.visible {
+  display: flex;
+}
+
+textarea {
+  margin: auto;
+  resize: none;
+  width: 400px;
+  height: 150px;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.labelComentario {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
